@@ -33,7 +33,7 @@ const Services = () => {
       <div className="flex flex-wrap flex-row w-5/6 items-center justify-center gap-5">
         <div
           className="md:w-[300px] w-auto md:h-[300px] h-auto bg-red-600 shadow-2xl flex flex-col px-2 md:pt-5 pt-0 pb-2 rounded-md border-2 border-white items-center md:gap-10 gap-3  text-center"
-          data-aos="fade-right">
+          data-aos="zoom-out">
           <img className="w-10 h-10" src={item1} alt="" />
           <h2 className="text-md font-bold text-red-200">
             Personalized Fitting Assistance
@@ -70,7 +70,7 @@ const Services = () => {
         </div>
         <div
           className="md:w-[300px] w-auto md:h-[300px] h-auto bg-red-600 shadow-2xl flex flex-col px-2 pt-5 pb-2 rounded-md border-2 border-white items-center md:gap-10 gap-3 text-center"
-          data-aos="fade-left">
+          data-aos="fade-right">
           <img className="w-10 h-10" src={item4} alt="" />
           <h2 className="text-md font-bold text-red-200">
             Sneaker Cleaning and Repair
@@ -83,7 +83,7 @@ const Services = () => {
         </div>
         <div
           className="md:w-[300px] w-auto md:h-[300px] h-auto bg-red-600 shadow-2xl flex flex-col px-2 pt-5 pb-2 rounded-md border-2 border-white items-center md:gap-10 gap-3 text-center"
-          data-aos="fade-left">
+          data-aos="fade-right">
           <img className="w-10 h-10" src={item5} alt="" />
           <h2 className="text-md font-bold text-red-200">
             Customization Services
@@ -96,7 +96,7 @@ const Services = () => {
         </div>
         <div
           className="md:w-[300px] w-auto md:h-[300px] h-auto bg-red-600 shadow-2xl flex flex-col px-2 pt-5 pb-2 rounded-md border-2 border-white items-center md:gap-10 gap-3 text-center"
-          data-aos="fade-left">
+          data-aos="fade-right">
           <img className="w-10 h-10" src={item6} alt="" />
           <h2 className="text-md font-bold text-red-200">
             Online Shopping Convenience

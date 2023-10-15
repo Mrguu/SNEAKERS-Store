@@ -25,7 +25,7 @@ const About = () => {
         </div>
         <div
           className="md:w-1/2 w-full md:text-sm text-xs font-bold text-red-50 text-justify"
-          data-aos="fade-right">
+          data-aos="zoom-in">
           Welcome to SNEAKERS, where passion for sneakers meets exceptional
           service. We are more than just a sneaker store; we are a community of
           shoe enthusiasts dedicated to providing you with the best footwear
