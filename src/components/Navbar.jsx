@@ -16,13 +16,11 @@ const Navbar = () => {
 
   return (
     <header className="fixed z-30 bg-opacity-90 w-full flex justify-between items-center md:p-5 p-3 rounded-b-xl shadow-4xl bg-red-pink">
-      <Link
-        to="home"
-        duration={600}
-        smooth={true}
+      <ReactRouterLink
+        to="/"
         className="md:text-3xl text-red-100 font-bold cursor-pointer font-abc text-xl">
         SNEAKERS
-      </Link>
+      </ReactRouterLink>
       <div className="md:hidden " onClick={() => setOpen(!open)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

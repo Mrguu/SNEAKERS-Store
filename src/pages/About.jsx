@@ -20,7 +20,7 @@ const About = () => {
         About Us
       </h1>
       <div className="flex md:flex-row flex-col items-center md:my-10 my-0  border-b-2 border-white pb-5">
-        <div className="md:w-1/2 w-full" data-aos="fade-left">
+        <div className="md:w-1/2 w-full" data-aos="fade-right">
           <img src={about} alt="" />
         </div>
         <div

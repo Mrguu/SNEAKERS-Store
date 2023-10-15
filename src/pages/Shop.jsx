@@ -18,9 +18,9 @@ const Shop = () => {
     loadpage();
   }, []);
   return (
-    <div className="w-full h-full bg-red-pink">
+    <div className="w-full md:h-full h-screen bg-red-pink">
       <Navbar />
-      <div className="flex flex-col items-center justify-center pt-20 gap-10 md:p-10 p-5">
+      <div className="flex flex-col items-center justify-center pt-20 gap-10 ">
         <h1 className="md:text-5xl text-3xl font-bold text-red-100 text-center">
           Here Our Products!
         </h1>
